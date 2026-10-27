@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/api/">
+    <Project Path="src/api/DriveTool.Api/DriveTool.Api.csproj" />
+    <Project Path="src/api/DriveTool.Core/DriveTool.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DriveTool.Api.Tests/DriveTool.Api.Tests.csproj" />
+  </Folder>
+</Solution>

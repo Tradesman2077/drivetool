@@ -1,0 +1,48 @@
+# ── .NET build output ──
+bin/
+obj/
+*.user
+*.suo
+
+# ── IDEs ──
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ── Test results and coverage ──
+TestResults/
+coverage/
+*.coverage
+*.trx
+
+# ── Node / Vue ──
+node_modules/
+dist/
+*.local
+npm-debug.log*
+
+# ── Playwright ──
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ── Terraform ──
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+# keep the lock file: it pins provider versions
+!.terraform.lock.hcl
+
+# ── Secrets and local config ──
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+
+# ── OS ──
+.DS_Store
+Thumbs.db
